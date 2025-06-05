@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/shulng/fuzzy-fiesta
           kernel-dir: msm-5.4
           kernel-branch: main
-          config: gki_defconfig
+          config: vendor/genericarmv8-64_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
