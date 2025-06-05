@@ -15,7 +15,7 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/shulng/cuddly-couscous
+          kernel-url: https://github.com/shulng/ZTE_A2022PG_R-11_Kernel-5.4.61
           kernel-dir: msm-5.4
           kernel-branch: main
           config: gki_defconfig
